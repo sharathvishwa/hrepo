@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   testapp:
   - apiVersion: v2
+    appVersion: 1.2.0
+    created: "2022-07-16T04:05:16.547689137Z"
+    description: this is new application
+    digest: d2907985d1d5be442ed81ca5ac4442f109ebb87463a0fc341a9096b77f087f19
+    name: testapp
+    type: application
+    urls:
+    - testapp-2.0.0.tgz
+    version: 2.0.0
+  - apiVersion: v2
     appVersion: 1.1.0
-    created: "2022-07-16T03:55:33.847447845Z"
+    created: "2022-07-16T04:05:16.547520551Z"
     description: this is new application
     digest: fe1b05b69a57cff678548b218291c2e6cd7ba9bce13c2e0fcd40eff22e07dd05
     name: testapp
@@ -11,4 +21,4 @@ entries:
     urls:
     - testapp-1.0.0.tgz
     version: 1.0.0
-generated: "2022-07-16T03:55:33.847147472Z"
+generated: "2022-07-16T04:05:16.547222292Z"
